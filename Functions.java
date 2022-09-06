@@ -4,16 +4,17 @@ public class Functions {
 
     public static void main(String[] args)
     {
+      displayGreetings();
       Scanner sc = new Scanner(System.in);
       System.out.println("Enter your message: ");
       String msg = sc.nextLine();
-      display(msg);
+      displayMsg(msg);
 
       //Find area of square
       System.out.println("Enter the side of square: ");
       int side = sc.nextInt();
       int area = areaOfSquare(side);
-      display("The area of square is "+ area);
+      displayMsg("The area of square is "+ area);
 
      //Find area of rectangle
      System.out.println("Enter the length of rectangle: ");
@@ -21,13 +22,14 @@ public class Functions {
      System.out.println("Enter the breadth of rectangle: ");
      int breadth = sc.nextInt();
      area = areaOfRectangle(length,breadth);
-     display("The area of rectangle is "+ area);
-
-     display(12+"");
-
+     displayMsg("The area of rectangle is "+ area);
     }
 
-    static void display(String message)
+    static void displayGreetings()
+    {
+        System.out.println("Welcome to Functions Lecture!!");
+    }
+    static void displayMsg(String message)
     {
         System.out.println(message);
     }

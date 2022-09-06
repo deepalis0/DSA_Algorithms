@@ -2,19 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b546273a-f061-4516-8ee5-dce9b6a53182" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Conditional.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Functions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Input.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Loops.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Operators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pre-Course.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SwitchCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abstraction/Bike.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abstraction/InterfaceMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abstraction/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abstraction/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abstraction/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AccessModifier_Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AccessModifier_myPackage/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AccessModifier_myPackage/MyClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AccessModifier_myPackage/NewClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BitManipulation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BooleanParanthesisProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClassAndObjects.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Encapsulation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inheritance/Bicycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inheritance/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inheritance/MountainBicycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LinkedList/DoublyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LinkedList/SingleLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ModularExponentiation_Iterative.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ModularExponentiation_Recursive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PassByValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimeNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Strings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/childClassOfMyClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sorting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticExmaple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testPackage/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/Arrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Functions.java" beforeDir="false" afterPath="$PROJECT_DIR$/Functions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pre-Course/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pre-Course/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pre-Course/Functions.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pre-Course/Functions.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +48,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -42,44 +67,62 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Functions">
-    <configuration name="Conditional" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Conditional" />
+}</component>
+  <component name="RunManager" selected="Application.SingleLinkedList">
+    <configuration name="Inheritance.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Inheritance.Main" />
+      <module name="Pre-Course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Inheritance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Abstraction.Main" />
+      <module name="Pre-Course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Abstraction.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SingleLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinkedList.SingleLinkedList" />
+      <module name="Pre-Course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LinkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
       <module name="Pre-Course" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Functions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Functions" />
-      <module name="Pre-Course" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Loops" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Loops" />
-      <module name="Pre-Course" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Operators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Operators" />
-      <module name="Pre-Course" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SwitchCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SwitchCase" />
+    <configuration name="staticExmaple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="staticExmaple" />
       <module name="Pre-Course" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -109,20 +152,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Conditional" />
-      <item itemvalue="Application.Functions" />
-      <item itemvalue="Application.Loops" />
-      <item itemvalue="Application.Operators" />
-      <item itemvalue="Application.SwitchCase" />
+      <item itemvalue="Application.SingleLinkedList" />
+      <item itemvalue="Application.Inheritance.Main" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.staticExmaple" />
       <item itemvalue="Maven.Unnamed" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Functions" />
-        <item itemvalue="Application.Loops" />
-        <item itemvalue="Application.SwitchCase" />
-        <item itemvalue="Application.Conditional" />
-        <item itemvalue="Application.Operators" />
+        <item itemvalue="Application.SingleLinkedList" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Inheritance.Main" />
+        <item itemvalue="Application.staticExmaple" />
+        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
