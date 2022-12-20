@@ -28,7 +28,7 @@ public class Encapsulation {
     }
 
 }
-class Test
+class EncapsulationDemo
 {
     public static void main(String[] args)
     {
@@ -36,7 +36,7 @@ class Test
         encapsulation.setMsg("Hi, I am learning Encapsulation!!");
         System.out.println(encapsulation.getMsg());
 
-        boolean gotSet = encapsulation.setN(12);
+        boolean gotSet = encapsulation.setN(112);
         if(gotSet)
           System.out.println(encapsulation.getN());
         else

@@ -13,6 +13,21 @@ public class Bicycle {
             this.speed = speed;
         }
 
+        public Bicycle()
+        {
+
+        }
+
+
+
+
+
+
+
+
+
+
+
         // the Bicycle class has three methods
         public  void applyBrake(int decrement)
         {

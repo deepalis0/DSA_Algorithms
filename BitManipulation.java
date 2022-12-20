@@ -7,7 +7,7 @@ public class BitManipulation {
         int x = sc.nextInt();
         displayInBinary(x);
        // System.out.println("x is even? "+ checkIfEven(x));
-        System.out.println("Is nth bit set ? "+ checkIfNthBitSet(3,x));
+        System.out.println("Is nth bit set ? "+ checkIfNthBitSet(0,x));
         displayInBinary(setNthBit(0,x));
 //        displayInBinary(unsetNthBit(0,x));
 //        displayInBinary(toggleNthBit(0,x));
@@ -32,7 +32,8 @@ public class BitManipulation {
     //158  10011110 3rd bit
     static boolean checkIfNthBitSet(int n,int x)
     {
-        if( (x & (1<<n) ) > 0 )
+
+        if( (x & (1<<n))>0)
         {
             return true;
         }
@@ -41,6 +42,7 @@ public class BitManipulation {
 
     static int setNthBit(int n,int x)
     {
+        System.out.println(x | (1<<n));
         return  (x | (1<<n));
     }
 

@@ -15,10 +15,9 @@ public class SwitchCase {
                 // code block
             }
          */
-         int day = 1;
-
-         switch (day) {
-            case 1:
+         int day = 9;
+         switch (day) {  // if - else if --else
+            case 1: // if( day == 1)
                 System.out.println("Monday");
                 break;
             case 2:
@@ -39,25 +38,31 @@ public class SwitchCase {
              case 7:
                  System.out.println("Sunday");
                  break;
-             default :
+             default : //else block if else if else
                  System.out.println("Invalid data entered");
                  break;
 
         }
 
-        int a = 12; int b = 15;
-        int larger = a>=b ? a : b;
 
 
 
-        if(a>=b )
-        {
-            larger = a;
-        }
-        else {
-            larger = b;
-        }
-        System.out.println(larger);
+
+//        int a = 12; int b = 15;
+//        int larger = a>=b ? a : b;
+//
+//
+//
+//        if(a>=b )
+//        {
+//            larger = a;
+//        }
+//        else {
+//            larger = b;
+//        }
+//        System.out.println(larger);
 
     }
 }
+
+

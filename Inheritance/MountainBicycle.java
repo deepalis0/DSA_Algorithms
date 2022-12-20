@@ -11,6 +11,23 @@ public class MountainBicycle extends Bicycle{
         seatHeight = startHeight;
     }
 
+    public MountainBicycle()
+    {
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
     // the MountainBike subclass adds one more method
     public void setHeight(int newValue)
     {

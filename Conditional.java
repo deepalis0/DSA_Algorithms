@@ -39,6 +39,8 @@ public class Conditional {
             color = "UNKNOWN";
         }
         System.out.println("The value of color code: "+colorCode + " is: "+ color);
+        ConstructorsExample constructorsExample = new ConstructorsExample();
+        ConstructorsExample constructorsExample1 = new ConstructorsExample(12,"msg");
 
 
     }

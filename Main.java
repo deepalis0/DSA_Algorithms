@@ -44,6 +44,21 @@ public class Main {
         double decimal = 12.78;
         System.out.println(decimal);
         System.out.printf("%30.3f",decimal);
+        System.out.println("---------------");
+
+
+        System.out.printf("%2.4f",decimal);
+
+       // System.out.printf("%.3f",decimal);
+
+        x = 100;
+        System.out.printf("Printing simple"+ " integer: x = %d\n",x);
+
+
+
+
+
+
 
 
 
@@ -51,8 +66,6 @@ public class Main {
 }
 
 /*
-int x = 100;
-        System.out.printf("Printing simple"+ " integer: x = %d\n",x);
 
 
  */

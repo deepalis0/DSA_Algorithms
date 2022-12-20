@@ -3,9 +3,20 @@ package Inheritance;
 public class Main {
     public static void main(String args[])
     {
+
+
+
+
+
+
+
+
+
         Bicycle bicycle = new Bicycle(4,50);
         bicycle.toString();
         //bicycle.setHeight(12); not accessible
+
+
         MountainBicycle mb = new MountainBicycle(3, 100, 25);
         mb.setHeight(15);
         System.out.println(mb.toString());

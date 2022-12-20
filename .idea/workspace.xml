@@ -1,44 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b546273a-f061-4516-8ee5-dce9b6a53182" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Abstraction/Bike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Abstraction/InterfaceMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Abstraction/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Abstraction/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Abstraction/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccessModifier_Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccessModifier_myPackage/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccessModifier_myPackage/MyClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccessModifier_myPackage/NewClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BitManipulation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BooleanParanthesisProblem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClassAndObjects.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Encapsulation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Inheritance/Bicycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Inheritance/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Inheritance/MountainBicycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinkedList/DoublyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinkedList/SingleLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ModularExponentiation_Iterative.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ModularExponentiation_Recursive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PassByValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrimeNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Strings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/board.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/childClassOfMyClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sorting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticExmaple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testPackage/test.java" afterDir="false" />
+    <list default="true" id="b546273a-f061-4516-8ee5-dce9b6a53182" name="Changes" comment="HashSet">
+      <change afterPath="$PROJECT_DIR$/ChessBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Compute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConstructorsExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HeapSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MinHeap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriorityQueue1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package1/child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package1/demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package1/demo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package2/childInDifferntPackage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package2/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static_demo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Arrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/Arrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BitManipulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/BitManipulation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Conditional.java" beforeDir="false" afterPath="$PROJECT_DIR$/Conditional.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Encapsulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Encapsulation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Functions.java" beforeDir="false" afterPath="$PROJECT_DIR$/Functions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inheritance/Bicycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Inheritance/Bicycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inheritance/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Inheritance/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inheritance/MountainBicycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Inheritance/MountainBicycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Input.java" beforeDir="false" afterPath="$PROJECT_DIR$/Input.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/SingleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/SingleLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModularExponentiation_Iterative.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModularExponentiation_Iterative.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Operators.java" beforeDir="false" afterPath="$PROJECT_DIR$/Operators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PrimeNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/PrimeNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SwitchCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/SwitchCase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Pre-Course/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pre-Course/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pre-Course/Arrays.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pre-Course/Arrays.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pre-Course/BitManipulation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pre-Course/BitManipulation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pre-Course/Conditional.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pre-Course/Conditional.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Pre-Course/Functions.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pre-Course/Functions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pre-Course/Inheritance/Bicycle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pre-Course/Inheritance/Bicycle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pre-Course/Inheritance/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pre-Course/Inheritance/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pre-Course/Inheritance/MountainBicycle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pre-Course/Inheritance/MountainBicycle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pre-Course/Input.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pre-Course/Input.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pre-Course/LinkedList/MySingleLinkedList$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pre-Course/LinkedList/MySingleLinkedList$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pre-Course/LinkedList/MySingleLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pre-Course/LinkedList/MySingleLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pre-Course/LinkedList/SingleLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pre-Course/LinkedList/SingleLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pre-Course/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pre-Course/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pre-Course/ModularExponentiation_Iterative.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pre-Course/ModularExponentiation_Iterative.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pre-Course/Operators.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pre-Course/Operators.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pre-Course/SwitchCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pre-Course/SwitchCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pre-Course/board.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pre-Course/staticExmaple.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pre-Course/staticExmaple.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pre-Course/test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/sorting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticExmaple.java" beforeDir="false" afterPath="$PROJECT_DIR$/staticExmaple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +73,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2CQsF8nxxexl3EcpkUAMG7mvhmA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -74,55 +91,37 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SingleLinkedList">
-    <configuration name="Inheritance.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Inheritance.Main" />
-      <module name="Pre-Course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Inheritance.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Abstraction.Main" />
-      <module name="Pre-Course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Abstraction.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SingleLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkedList.SingleLinkedList" />
-      <module name="Pre-Course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LinkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test" />
+  <component name="RunManager" selected="Application.Compute">
+    <configuration name="ChessBoard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ChessBoard" />
       <module name="Pre-Course" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="staticExmaple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="staticExmaple" />
+    <configuration name="Compute" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Compute" />
+      <module name="Pre-Course" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HeapSort" />
+      <module name="Pre-Course" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinHeap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MinHeap" />
+      <module name="Pre-Course" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PriorityQueue1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PriorityQueue1" />
       <module name="Pre-Course" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -152,20 +151,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.SingleLinkedList" />
-      <item itemvalue="Application.Inheritance.Main" />
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Test" />
-      <item itemvalue="Application.staticExmaple" />
+      <item itemvalue="Application.Compute" />
+      <item itemvalue="Application.HeapSort" />
+      <item itemvalue="Application.MinHeap" />
+      <item itemvalue="Application.PriorityQueue1" />
+      <item itemvalue="Application.ChessBoard" />
       <item itemvalue="Maven.Unnamed" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SingleLinkedList" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Inheritance.Main" />
-        <item itemvalue="Application.staticExmaple" />
-        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Compute" />
+        <item itemvalue="Application.HeapSort" />
+        <item itemvalue="Application.MinHeap" />
+        <item itemvalue="Application.PriorityQueue1" />
+        <item itemvalue="Application.ChessBoard" />
       </list>
     </recent_temporary>
   </component>
@@ -178,6 +177,28 @@
       <option name="presentableId" value="Default" />
       <updated>1658746040628</updated>
     </task>
+    <task id="LOCAL-00001" summary="new files">
+      <created>1662466588259</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662466588260</updated>
+    </task>
+    <task id="LOCAL-00002" summary="new files">
+      <created>1662468794972</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662468794972</updated>
+    </task>
+    <task id="LOCAL-00003" summary="HashSet">
+      <created>1662566861840</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662566861840</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -185,10 +206,43 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="new files" />
+    <MESSAGE value="HashSet" />
+    <option name="LAST_COMMIT_MESSAGE" value="HashSet" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ChessBoard.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Compute.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

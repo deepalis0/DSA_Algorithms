@@ -28,6 +28,7 @@ public class Functions {
     static void displayGreetings()
     {
         System.out.println("Welcome to Functions Lecture!!");
+        //return;
     }
     static void displayMsg(String message)
     {
@@ -43,4 +44,11 @@ public class Functions {
     {
         return a*b;
     }
+
+
+
 }
+
+
+
+

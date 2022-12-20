@@ -3,29 +3,35 @@ public class SingleLinkedList {
     public static void main(String[] args)
     {
       MySingleLinkedList singleLinkedList = new MySingleLinkedList();
-      singleLinkedList.addAtTail(12);
-      singleLinkedList.addAtTail(21);
+      singleLinkedList.addAtHead(12);
+      singleLinkedList.addAtHead(13);
       singleLinkedList.addAtTail(15);
+      System.out.println("The value at index 0 is "+ singleLinkedList.get(0));
       singleLinkedList.printLinkedList();
-
-      singleLinkedList.addAtHead(100);
-      singleLinkedList.printLinkedList();
-
-      singleLinkedList.addAtIndex(1,18);
-      singleLinkedList.printLinkedList();
-
-      System.out.println(singleLinkedList.get(2));
-
-      System.out.println("The length of LL is :" + singleLinkedList.getLength());
-      singleLinkedList.deleteAtIndex(3);
-      singleLinkedList.printLinkedList();
-      System.out.println("The length of LL is :" + singleLinkedList.getLength());
+        //12
+//      singleLinkedList.addAtTail(12); // 12
+//      singleLinkedList.addAtTail(21); // 12 -> 21
+//      singleLinkedList.addAtTail(15); // 12 -> 21 -> 15
+//       System.out.println(singleLinkedList);
+//      singleLinkedList.printLinkedList();
+//
+//      singleLinkedList.addAtHead(100);// 100 ->12-> 21->15
+//      singleLinkedList.printLinkedList();
+//
+//      singleLinkedList.addAtIndex(1,18);// 100 18 12 21 15
+//      singleLinkedList.printLinkedList();
+//
+//      System.out.println(singleLinkedList.get(2));
+//
+//      System.out.println("The length of LL is :" + singleLinkedList.getLength());// 100 18 12 21 15
+//      singleLinkedList.deleteAtIndex(3);
+//      singleLinkedList.printLinkedList();
+//      System.out.println("The length of LL is :" + singleLinkedList.getLength());
 
     }
 }
 class MySingleLinkedList
 {
-
     static class Node
     {
         Node next;
@@ -74,6 +80,7 @@ class MySingleLinkedList
         Node cur = getNode(index);
         return cur == null ? -1 : cur.val;
     }
+
 
     /** Add a new node.
 
@@ -142,7 +149,7 @@ class MySingleLinkedList
         }
         while(cur!=null)
         {
-            System.out.print(cur.val +" ");
+            System.out.print(cur.val +" ");//12 12 14 15
             cur = cur.next;
         }
         System.out.println();
