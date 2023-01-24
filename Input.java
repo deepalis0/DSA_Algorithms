@@ -1,8 +1,12 @@
 import java.util.Scanner;//folders -- packages
-                         //files --classes
+//import java.io.BufferedReader;//files --classes
+//import java.io.InputStreamReader;
+//import java.io.IOException;
+import java.io.*;
 public class Input {
 
-    public static void main(String args[]) {
+    public static void main(String args[]) throws IOException //this is needed for BufferedReader
+    {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter an integer: ");
         int n = sc.nextInt();//Reading input from your terminal
@@ -19,10 +23,18 @@ public class Input {
         System.out.println("Enter a float: ");
         float f = sc.nextFloat();
         System.out.println(f);
-
+//        "Deepali Shinde is a girl"
+//        s = "Deepali
+//        s1 = "Shinde"
         System.out.println("Enter string: ");
         String s = sc.next();
         System.out.println(s);
+
+//        System.out.println("Enter string: ");
+//        String s1 = sc.nextLine();
+//        System.out.println(s1);
+
+
 
         //Strings are made of characters
         System.out.println("Enter a character: ");
@@ -61,6 +73,24 @@ public class Input {
 
           Converting between primitives and objects like this is known as boxing/unboxing.
          */
+
+        //***************************************Using BufferedReader to read input
+
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        System.out.println("Enter value of t: ");
+         // 9 read as "9"
+        int t = Integer.parseInt(br.readLine());//Integer.parseInt("90);==90
+        System.out.println("Enter value of a long: ");
+         l = Long.valueOf(br.readLine());
+
+        System.out.println("Enter value of string s: ");
+         s = br.readLine();
+        System.out.println(s);
+        System.out.println(t);
+        System.out.println(l);
+
+//        int n = Integer.parseInt(br.readLine());
+//        String[] integersInString = br.readLine().split(" ");
 
 
     }
