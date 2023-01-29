@@ -23,6 +23,7 @@ public class Functions {
      int breadth = sc.nextInt();
      area = areaOfRectangle(length,breadth);
      displayMsg("The area of rectangle is "+ area);
+
     }
 
     static void displayGreetings()
@@ -33,9 +34,12 @@ public class Functions {
     static void displayMsg(String message)
     {
         System.out.println(message);
-    }
 
-    static int areaOfSquare(int s)
+    }
+    //void as returnType -- this function
+    //is not returning any data
+
+    static int areaOfSquare(int s)//function signature
     {
         return s*s;
     }
