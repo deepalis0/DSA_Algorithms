@@ -1,22 +1,47 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.Scanner;
 
 public class Arrays {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
+
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        System.out.println("Enter size of array : ");
+        int n = Integer.parseInt(br.readLine());
+        String[] integersInString = br.readLine().split(" ");
+        int[] array = new int[n];
+        //"11" "12" "13" "14" "15"
+        for(int i=0;i<n;i++)
+        {
+            array[i] = Integer.parseInt(integersInString[i]);
+            //System.out.print(array[i]+" ");
+        }
+        display(array);
+        //array: 11 12 13 14 15
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter size of array : ");
-        int n = sc.nextInt();
+        n = sc.nextInt();
+
+//        int[] b; //declaration
+//        b = new int[4];//initialiZATION
+
+        //implicit
+        int[] a1={1,2,3,4};//no size has been mentioned
+        display(a1);
 
         int[] a = new int[n]; //created a 1-D array of size n of type int
         //n = 4 , indices : 0, 1, 2, 3
         System.out.println("Print default values of array: ");
         display(a);
+
         System.out.println("Enter values for the  array : ");
-        for(int i = 0 ;i< n ;i ++)
+        for(int i = 0 ;i< n ;i ++)//i: 0 1 2 3
         {
             System.out.println("Enter value: ");
-            a[i] = sc.nextInt();
+            a[i] = sc.nextInt();//a[0] = 12 a[1] a[2] a[3]
         }
         System.out.println("Displaying values for array: ");
         display(a);
@@ -100,7 +125,10 @@ public class Arrays {
     }
      static void display(int[] a)
     {
-        for(int i = 0;i<a.length;i++)
+        //length of array
+        //a.length = 4
+        //a = 8  a.length =8
+        for(int i = 0;i<a.length;i++)//0 1 2 3
         {
             System.out.print(a[i]+ " ");
         }
@@ -113,5 +141,17 @@ public class Arrays {
             System.out.print(a[i]+ " ");
         }
         System.out.println();
+
+        int i = 0 ,j = a.length-1;
+        while(i<j)
+        {
+            int temp = a[i];
+            a[i] = a[j];
+            a[j] = temp;
+            i++;
+            j--;
+        }
+        display(a);
+
     }
 }
