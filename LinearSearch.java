@@ -24,6 +24,5 @@ public class LinearSearch {
         {
             System.out.println("Found target at index " + index);
         }
-
     }
 }
