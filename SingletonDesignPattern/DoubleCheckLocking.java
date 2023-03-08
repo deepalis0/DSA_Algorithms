@@ -1,6 +1,8 @@
 package SingletonDesignPattern;
 
-class SingletonM
+import java.io.Serializable;
+
+class SingletonM implements Serializable
 {
     private static  SingletonM INSTANCE = null;
 
@@ -39,6 +41,11 @@ class SingletonM
     public int getValue()
     {
         return value;
+    }
+
+    protected Object readResolve() //this implementation is now safe from Serialization as well
+    {
+        return INSTANCE;
     }
 }
 public class DoubleCheckLocking {
