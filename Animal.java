@@ -1,28 +1,23 @@
-import AccessModifier_myPackage.MyClass;
-public class Animal extends MyClass {
-    protected String animalName;
-    String color;
 
-    public Animal() {
+public class Animal  {
 
-    }
 
-    public String getName() {
-        return animalName;
-    }
-
-    public String getColor() {
-        return color;
-    }
-
-    public String getNamesFromParentClass()
+    Animal()
     {
-        return name;
+        System.out.println("Parent class constructor called");
+
     }
 
-    public void setNamesFromParentClass(String name)
+    void makeNoise()
     {
-        this.name = name;
+        System.out.println("Generic animal noise");
     }
+
+    static void displayMsg()
+    {
+        System.out.println("Display method from Parent Class");
+    }
+
+
 
 }
