@@ -3,24 +3,26 @@ public class Dog extends Animal
 
     Dog()
     {
-        System.out.println("Parent class constructor called");
+        System.out.println("Child class constructor called- Dog");
 
     }
 
-    boolean isServiceDog;
+    private boolean isServiceDog;
 
-    Dog(String name, String breed,boolean isServiceDog)
+    Dog(String name1, String breed1,boolean isServiceDog)
     {
-        super(name,breed);
+        super(name1,breed1);//call to parent constructor
         this.isServiceDog = isServiceDog;
     }
 
-    void makeNoise()
+    void makeNoise()//overriding - runtime polymorphism
     {
+        super.makeNoise();
         System.out.println("Dog noise");
+
     }
 
-    void makeNoise(String sound)
+    void makeNoise(String sound)//overloading - compile time polymorphism
     {
         System.out.println("Dog makes sound: "+sound);
     }
