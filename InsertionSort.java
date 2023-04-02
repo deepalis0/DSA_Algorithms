@@ -6,6 +6,8 @@ public class InsertionSort {
         {
             int key = a[i];//the element in your unsorted part which you want to place in correct position in sorted part
             int j = i-1;
+            // 0...j -->sorted
+            //j+1(i) ....n-1 -->unsorted
             while(j>=0 && a[j]>key)
             {
                 a[j+1] = a[j];//shifting, to make space for the key element in sorted part
