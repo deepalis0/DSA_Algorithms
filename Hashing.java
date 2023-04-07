@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
@@ -6,13 +7,18 @@ public class Hashing {
 
     public static void main(String []args)
     {
+
        HashMap<String,Integer> colorMap = new HashMap<>();
+
        colorMap.put("RED",1);
        colorMap.put("YELLOW",2);
        colorMap.put("BLUE",3);
 
+
+
        //update the color code of RED
        colorMap.put("RED",4);
+
 
        System.out.println("The code for BLUE is "+ colorMap.get("BLUE"));
        System.out.println("The code for RED is "+ colorMap.get("RED"));
@@ -39,7 +45,8 @@ public class Hashing {
             }
          */
          colorMap.remove("BLUE");
-         colorMap.remove("RED",4);
+         colorMap.remove("RED",4);//removal of an entry
+
 
         //row in a HashMap  KEY VALUE  -- ENTRY in a HASHMAP
         //entry - KEY and VALUE
@@ -83,12 +90,7 @@ public class Hashing {
         set.remove(12);
         System.out.println("After removal..."+set);
 
-//        set.add(13);
-//        set.remove(13);
-//        for(int x : set)
-//        {
-//            System.out.print(x+" ");
-//        }
+
 
     }
 
