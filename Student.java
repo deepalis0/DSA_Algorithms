@@ -1,8 +1,10 @@
 public class Student {
 
-    //data members
+    //data members -> properties
     private static int numberOfStudents;
     private String name;
+
+    public final String collegeName;
 
     int a;
 
@@ -18,6 +20,12 @@ public class Student {
 
         return numberOfStudents;
     }
+
+    public void study()
+    {
+        System.out.println("Studying!!");
+    }
+
 
     public static boolean validateName(String name) {
         // Name should not be null or empty
@@ -40,8 +48,14 @@ public class Student {
     }
 
 
-    Student() {
+    Student(String collegeName) {
+        this.collegeName = collegeName;
         numberOfStudents++;
+    }
+
+    Student()
+    {
+        this.collegeName = "collegeName";
     }
 
 }
@@ -50,9 +64,11 @@ class Demo{
     public static void main(String[] args)
     {
 
-        Student s1 = new Student();
-        Student s2 = new Student();
-        Student s3 = new Student();
+        Student s1 = new Student("XYZ");
+        Student s2 = new Student("ABC");
+        Student s3 = new Student("PQR");
+
+
         if(Student.validateName("Sonali"))
         {
             s1.setName("Sonali");
@@ -65,6 +81,10 @@ class Demo{
         {
             s3.setName("Kedar");
         }
+        System.out.println(s3.collegeName);
+        System.out.println(s2.collegeName);
+        System.out.println(s1.collegeName);
+
 
        System.out.println("The number of students: "+ Student.getTotalStudents());
 

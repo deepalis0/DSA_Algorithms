@@ -1,6 +1,7 @@
 public class Encapsulation {
 
     private int n;
+
     private String msg;
 
     public int getN()
@@ -36,8 +37,8 @@ class EncapsulationDemo
         encapsulation.setMsg("Hi, I am learning Encapsulation!!");
         System.out.println(encapsulation.getMsg());
 
-        boolean gotSet = encapsulation.setN(112);
-        if(gotSet)
+        boolean setSuccessful = encapsulation.setN(112);
+        if(setSuccessful==true)
           System.out.println(encapsulation.getN());
         else
             System.out.println("Unsuccessful updation of n!");

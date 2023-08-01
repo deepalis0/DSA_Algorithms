@@ -5,7 +5,8 @@ public class BubbleSort {
         boolean isSwapped = true;
         for(int i=0;i<n-1;i++)//n-1 passes
         {
-            if(isSwapped) {
+            if(isSwapped==true)
+            {
                 isSwapped = false;
                 for (int j = 0; j < n - 1 - i; j++) {
                     if (a[j] > a[j + 1]) {

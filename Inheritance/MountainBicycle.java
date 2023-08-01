@@ -17,17 +17,6 @@ public class MountainBicycle extends Bicycle{
     }
 
 
-
-
-
-
-
-
-
-
-
-
-
     // the MountainBike subclass adds one more method
     public void setHeight(int newValue)
     {

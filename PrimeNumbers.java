@@ -15,7 +15,8 @@ public class PrimeNumbers {
             bool[i] = true;
         }
          */
-        for (int i = 2; i<= Math.sqrt(num); i++) {
+        for (int i = 2; i<= Math.sqrt(num); i++)
+        {
             if(bool[i])//if i is prime
             {
                 for(int j = (i*i); j<=num; j = j+i)//marking all multiples of i as Non-Primes

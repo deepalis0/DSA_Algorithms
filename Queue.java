@@ -1,8 +1,7 @@
-public class Queue implements  DataStructures
+public class Queue extends  DataStructures
 {
     public void add(int data)
     {
-
         System.out.println("Adding "+data+" to Queue");
     }
 
@@ -11,4 +10,5 @@ public class Queue implements  DataStructures
         System.out.println("Deleting from Queue");
         return -1;
     }
+
 }

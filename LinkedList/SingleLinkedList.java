@@ -4,8 +4,8 @@ public class SingleLinkedList {
     {
       MySingleLinkedList singleLinkedList = new MySingleLinkedList();
       singleLinkedList.addAtHead(12);
-      singleLinkedList.addAtHead(13);
-      singleLinkedList.addAtTail(15);
+      singleLinkedList.addAtHead(13);// 13 --> 12
+      singleLinkedList.addAtTail(15); // 13 ---> 12 --> 15
       System.out.println("The value at index 0 is "+ singleLinkedList.get(0));
       singleLinkedList.printLinkedList();
         //12
@@ -51,6 +51,7 @@ class MySingleLinkedList
         }
 
     }
+
     private Node head;
     public MySingleLinkedList()
     {
@@ -88,8 +89,7 @@ class MySingleLinkedList
     public void addAtHead(int val) {
         Node cur = new Node(val);
         cur.next = head;
-        head = cur;
-        return;
+        head = cur;  
     }
 
     /** Append a node of value val to the last element of the linked list. */
@@ -139,7 +139,7 @@ class MySingleLinkedList
 
 
 
-    public void printLinkedList()
+    public void printLinkedList() //13 ---> 12 --> 15
     {
         Node cur = head;
         if(cur==null)

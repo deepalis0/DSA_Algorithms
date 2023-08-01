@@ -3,15 +3,6 @@ package Inheritance;
 public class Main {
     public static void main(String args[])
     {
-
-
-
-
-
-
-
-
-
         Bicycle bicycle = new Bicycle(4,50);
         bicycle.toString();
         //bicycle.setHeight(12); not accessible

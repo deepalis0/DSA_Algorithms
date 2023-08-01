@@ -1,13 +1,12 @@
-public interface DataStructures
+public abstract class  DataStructures
 {
+    static int maxSize = 100;
 
-    int maxSize = 100;
+    abstract void add(int data);
 
-    void add(int data);
+    abstract int delete();
 
-    int delete();
-
-    default void display()
+     void display()
     {
         System.out.println("Welcome to DataStructure Interface!");
     }

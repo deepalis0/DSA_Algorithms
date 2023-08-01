@@ -9,7 +9,7 @@ public class MergeSort
             sort(a,start, mid);
             sort(a,mid+1,end);
             //start mid     mid+1 end
-            merge(a,start,mid,end);
+            merge(a,start,mid,end);//combine
         }
         return a;
     }

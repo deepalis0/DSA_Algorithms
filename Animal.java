@@ -34,7 +34,7 @@
     }
     
 
-     void makeNoise()
+    void makeNoise()
     {
         System.out.println("Generic animal noise");
     }

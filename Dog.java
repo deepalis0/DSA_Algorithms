@@ -3,6 +3,7 @@ public class Dog extends Animal
 
     Dog()
     {
+        super();
         System.out.println("Child class constructor called- Dog");
 
     }
@@ -17,7 +18,7 @@ public class Dog extends Animal
 
     void makeNoise()//overriding - runtime polymorphism
     {
-        super.makeNoise();
+        super.makeNoise();//called the implementation of Animal
         System.out.println("Dog noise");
 
     }

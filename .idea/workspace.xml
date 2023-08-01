@@ -1,39 +1,143 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b546273a-f061-4516-8ee5-dce9b6a53182" name="Changes" comment="HashSet">
-      <change afterPath="$PROJECT_DIR$/ChessBoard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Compute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConstructorsExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HeapSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MinHeap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PriorityQueue1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package1/child.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package1/demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package1/demo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package2/childInDifferntPackage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package2/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_demo.java" afterDir="false" />
+    <list default="true" id="b546273a-f061-4516-8ee5-dce9b6a53182" name="Changes" comment="Double ended queue">
+      <change afterPath="$PROJECT_DIR$/Abstraction/AbstractionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abstraction/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abstraction/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdapterDesignPattern/AdapterHotAirBalloon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdapterDesignPattern/Boeing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdapterDesignPattern/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdapterDesignPattern/Helicopter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdapterDesignPattern/HotAirBalloon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdapterDesignPattern/IAircraft.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BuilderPattern/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BuilderPattern/IBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BuilderPattern/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BuilderPattern/StudentBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BuilderPattern/TeacherBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeTemplates.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Constructors/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Constructors/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DecoratorDesignPattern/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DecoratorDesignPattern/DataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DecoratorDesignPattern/DataSourceDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DecoratorDesignPattern/DecoratorForCircle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DecoratorDesignPattern/DecoratorForShape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DecoratorDesignPattern/EncryptDatSourceDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DecoratorDesignPattern/IGeometricFigures.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DecoratorDesignPattern/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DecoratorDesignPattern/SimpleDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DecoratorDesignPattern/demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HashMaps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HelloWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IteratorDesignPattern/College.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IteratorDesignPattern/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IteratorDesignPattern/ICollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IteratorDesignPattern/Iterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IteratorDesignPattern/SubjectNameIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IteratorDesignPattern/Subjects.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LinkedListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultiThreading.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultiThreading/FizzBuzz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultiThreading/IOrderedPrinting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultiThreading/OrderedPrinting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultiThreading/OrderedPrintingDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultiThreading/OrderedPrintingThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultiThreading/OrderedPrintingUsingCountDownLatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultiThreading/PrintingNumberSeries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultiThreading/PrintingNumberSeriesDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultiThreading/PrintingNumberSeriesThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrototypeDesignPattern/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrototypeDesignPattern/IProtoype.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrototypeDesignPattern/Prototype.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrototypeDesignPattern/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrototypeDesignPattern/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrototypeDesignPattern/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SingletonDesignPattern_practise/DoubleCheckLocking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SingletonDesignPattern_practise/EarlyInitialization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SingletonDesignPattern_practise/LazyInitialization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VisitorDesignPattern/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VisitorDesignPattern/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VisitorDesignPattern/Eclipse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VisitorDesignPattern/Graphic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VisitorDesignPattern/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VisitorDesignPattern/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VisitorDesignPattern/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VisitorDesignPattern/Visitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VisitorDesignPattern/VisitorConcrete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/Arrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abstraction/InterfaceMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/Abstraction/InterfaceMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abstraction/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Abstraction/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArrayDeque_Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/ArrayDeque_Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArrayListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/ArrayListDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinaryTrees.java" beforeDir="false" afterPath="$PROJECT_DIR$/BinaryTrees.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BitManipulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/BitManipulation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassAndObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/ClassAndObjects.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Conditional.java" beforeDir="false" afterPath="$PROJECT_DIR$/Conditional.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Encapsulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Encapsulation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Functions.java" beforeDir="false" afterPath="$PROJECT_DIR$/Functions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hashing.java" beforeDir="false" afterPath="$PROJECT_DIR$/Hashing.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Inheritance/Bicycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Inheritance/Bicycle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Inheritance/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Inheritance/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Inheritance/MountainBicycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Inheritance/MountainBicycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InheritanceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/InheritanceDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Input.java" beforeDir="false" afterPath="$PROJECT_DIR$/Input.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterfaceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/InterfaceDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LinkedList/SingleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/SingleLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModularExponentiation_Iterative.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModularExponentiation_Iterative.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Loops.java" beforeDir="false" afterPath="$PROJECT_DIR$/Loops.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModularExponentiation_Recursive.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModularExponentiation_Recursive.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Operators.java" beforeDir="false" afterPath="$PROJECT_DIR$/Operators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PolymorphismDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/PolymorphismDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PrimeNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/PrimeNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SwitchCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/SwitchCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SingletonDesignPattern/DoubleCheckLocking.java" beforeDir="false" afterPath="$PROJECT_DIR$/SingletonDesignPattern/DoubleCheckLocking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SingletonDesignPattern/Enum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strings.java" beforeDir="false" afterPath="$PROJECT_DIR$/Strings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pre-Course/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pre-Course/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Pre-Course/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pre-Course/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pre-Course/Abstraction/Bike.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pre-Course/Abstraction/Bike.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pre-Course/Abstraction/Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pre-Course/Abstraction/Circle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pre-Course/Abstraction/InterfaceMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pre-Course/Abstraction/InterfaceMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pre-Course/Abstraction/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pre-Course/Abstraction/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pre-Course/Abstraction/Rectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pre-Course/Abstraction/Rectangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pre-Course/Abstraction/Shape.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pre-Course/Abstraction/Shape.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pre-Course/Abstraction/Vehicle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pre-Course/Abstraction/Vehicle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pre-Course/Abstraction/simpleClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pre-Course/Abstraction/simpleClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pre-Course/Abstraction/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pre-Course/Abstraction/test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pre-Course/AccessModifier_Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pre-Course/AccessModifier_Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pre-Course/AccessModifier_myPackage/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pre-Course/AccessModifier_myPackage/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pre-Course/AccessModifier_myPackage/MyClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pre-Course/AccessModifier_myPackage/MyClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pre-Course/AccessModifier_myPackage/NewClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pre-Course/AccessModifier_myPackage/NewClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pre-Course/AccessModifier_myPackage/childClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pre-Course/AccessModifier_myPackage/childClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pre-Course/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pre-Course/Animal.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Pre-Course/Arrays.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pre-Course/Arrays.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pre-Course/BinarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pre-Course/BinarySearch.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Pre-Course/BitManipulation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pre-Course/BitManipulation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pre-Course/BooleanParanthesisProblem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pre-Course/BooleanParanthesisProblem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pre-Course/ClassAndObjects.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Pre-Course/Conditional.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pre-Course/Conditional.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pre-Course/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pre-Course/Dog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pre-Course/Encapsulation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pre-Course/Encapsulation.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Pre-Course/Functions.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pre-Course/Functions.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Pre-Course/Inheritance/Bicycle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pre-Course/Inheritance/Bicycle.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Pre-Course/Inheritance/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pre-Course/Inheritance/Main.class" afterDir="false" />
@@ -42,17 +146,21 @@
       <change beforePath="$PROJECT_DIR$/out/production/Pre-Course/LinkedList/MySingleLinkedList$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pre-Course/LinkedList/MySingleLinkedList$Node.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Pre-Course/LinkedList/MySingleLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pre-Course/LinkedList/MySingleLinkedList.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Pre-Course/LinkedList/SingleLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pre-Course/LinkedList/SingleLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pre-Course/Loops.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pre-Course/Loops.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Pre-Course/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pre-Course/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Pre-Course/ModularExponentiation_Iterative.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pre-Course/ModularExponentiation_Iterative.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pre-Course/ModularExponentiation_Recursive.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pre-Course/ModularExponentiation_Recursive.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Pre-Course/Operators.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pre-Course/Operators.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pre-Course/PassByValue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pre-Course/PassByValue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pre-Course/PrimeNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pre-Course/PrimeNumbers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pre-Course/Strings.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pre-Course/Strings.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Pre-Course/SwitchCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pre-Course/SwitchCase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Pre-Course/board.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pre-Course/childClassOfMyClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pre-Course/childClassOfMyClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pre-Course/sorting.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Pre-Course/staticExmaple.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pre-Course/staticExmaple.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Pre-Course/test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/sorting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pre-Course/testPackage/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pre-Course/testPackage/test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/QuickSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/staticExmaple.java" beforeDir="false" afterPath="$PROJECT_DIR$/staticExmaple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +170,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -91,38 +200,62 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Compute">
-    <configuration name="ChessBoard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ChessBoard" />
+  <component name="RunManager" selected="Application.AbstractionDemo">
+    <configuration name="AbstractionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Abstraction.AbstractionDemo" />
+      <module name="Pre-Course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Abstraction.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderedPrintingDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MultiThreading.OrderedPrintingDemo" />
+      <module name="Pre-Course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MultiThreading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PolymorphismDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PolymorphismDemo" />
       <module name="Pre-Course" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Compute" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Compute" />
+    <configuration name="PrintingNumberSeriesDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MultiThreading.PrintingNumberSeriesDemo" />
       <module name="Pre-Course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MultiThreading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HeapSort" />
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MultiThreading.main" />
       <module name="Pre-Course" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MinHeap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MinHeap" />
-      <module name="Pre-Course" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PriorityQueue1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PriorityQueue1" />
-      <module name="Pre-Course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MultiThreading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -151,20 +284,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Compute" />
-      <item itemvalue="Application.HeapSort" />
-      <item itemvalue="Application.MinHeap" />
-      <item itemvalue="Application.PriorityQueue1" />
-      <item itemvalue="Application.ChessBoard" />
+      <item itemvalue="Application.AbstractionDemo" />
+      <item itemvalue="Application.OrderedPrintingDemo" />
+      <item itemvalue="Application.PrintingNumberSeriesDemo" />
+      <item itemvalue="Application.main" />
+      <item itemvalue="Application.PolymorphismDemo" />
       <item itemvalue="Maven.Unnamed" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Compute" />
-        <item itemvalue="Application.HeapSort" />
-        <item itemvalue="Application.MinHeap" />
-        <item itemvalue="Application.PriorityQueue1" />
-        <item itemvalue="Application.ChessBoard" />
+        <item itemvalue="Application.AbstractionDemo" />
+        <item itemvalue="Application.PolymorphismDemo" />
+        <item itemvalue="Application.main" />
+        <item itemvalue="Application.PrintingNumberSeriesDemo" />
+        <item itemvalue="Application.OrderedPrintingDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +331,245 @@
       <option name="project" value="LOCAL" />
       <updated>1662566861840</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Precedence of Operators">
+      <created>1674067341916</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1674067341916</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Loops">
+      <created>1674096270003</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1674096270003</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Input">
+      <created>1674096378237</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1674096378237</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Input-BufferedReader">
+      <created>1674581806552</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1674581806552</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Switch and Functions">
+      <created>1675036622558</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1675036622558</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Arrays">
+      <created>1675783016712</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1675783016712</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Array Examples">
+      <created>1675807580634</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1675807580634</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Array List">
+      <created>1676136831954</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1676136831954</updated>
+    </task>
+    <task id="LOCAL-00012" summary="BinarySe">
+      <created>1676928833377</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1676928833377</updated>
+    </task>
+    <task id="LOCAL-00013" summary="LinearSearch">
+      <created>1677009761776</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1677009761776</updated>
+    </task>
+    <task id="LOCAL-00014" summary="LinearSearch">
+      <created>1677009907959</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1677009907959</updated>
+    </task>
+    <task id="LOCAL-00015" summary="ReadMe">
+      <created>1677015741143</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1677015741143</updated>
+    </task>
+    <task id="LOCAL-00016" summary="FirstAndLastPositionOfElement">
+      <created>1677128930926</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1677128930926</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Binary Trees">
+      <created>1677547102342</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1677547102342</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Merge Sort">
+      <created>1678229031615</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1678229031615</updated>
+    </task>
+    <task id="LOCAL-00019" summary="new commit">
+      <created>1678247676427</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1678247676427</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Singleton Design Pattern">
+      <created>1678296790946</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1678296790946</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Singleton Design Pattern">
+      <created>1678297659961</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1678297659961</updated>
+    </task>
+    <task id="LOCAL-00022" summary="GCD">
+      <created>1678649815618</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1678649815618</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Polymorphism">
+      <created>1678681585884</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1678681585884</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Prime numbers">
+      <created>1678813329041</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1678813329041</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Modulo Arithmetic Theory">
+      <created>1678988179016</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1678988179016</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Inheritance">
+      <created>1679103457356</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1679103457356</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Question Bank">
+      <created>1679104381077</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1679104381077</updated>
+    </task>
+    <task id="LOCAL-00028" summary="interface">
+      <created>1679363097238</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1679363097238</updated>
+    </task>
+    <task id="LOCAL-00029" summary="OOPs">
+      <created>1680384364699</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1680384364699</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Bubble Sort">
+      <created>1680469923501</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1680469923501</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Insertion Sort">
+      <created>1680473327643</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1680473327643</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Insertion Sort">
+      <created>1680479471646</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1680479471646</updated>
+    </task>
+    <task id="LOCAL-00033" summary="ArrayList">
+      <created>1680880702259</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1680880702259</updated>
+    </task>
+    <task id="LOCAL-00034" summary="HashMap">
+      <created>1680886845498</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1680886845498</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Stack">
+      <created>1681701590403</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1681701590403</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Queue Interface">
+      <created>1683048115932</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1683048115932</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Double ended queue">
+      <created>1683368927260</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1683368927260</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -225,9 +596,32 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="new files" />
-    <MESSAGE value="HashSet" />
-    <option name="LAST_COMMIT_MESSAGE" value="HashSet" />
+    <MESSAGE value="Array Examples" />
+    <MESSAGE value="Array List" />
+    <MESSAGE value="BinarySe" />
+    <MESSAGE value="LinearSearch" />
+    <MESSAGE value="ReadMe" />
+    <MESSAGE value="FirstAndLastPositionOfElement" />
+    <MESSAGE value="Binary Trees" />
+    <MESSAGE value="Merge Sort" />
+    <MESSAGE value="new commit" />
+    <MESSAGE value="Singleton Design Pattern" />
+    <MESSAGE value="GCD" />
+    <MESSAGE value="Polymorphism" />
+    <MESSAGE value="Prime numbers" />
+    <MESSAGE value="Modulo Arithmetic Theory" />
+    <MESSAGE value="Inheritance" />
+    <MESSAGE value="Question Bank" />
+    <MESSAGE value="interface" />
+    <MESSAGE value="OOPs" />
+    <MESSAGE value="Bubble Sort" />
+    <MESSAGE value="Insertion Sort" />
+    <MESSAGE value="ArrayList" />
+    <MESSAGE value="HashMap" />
+    <MESSAGE value="Stack" />
+    <MESSAGE value="Queue Interface" />
+    <MESSAGE value="Double ended queue" />
+    <option name="LAST_COMMIT_MESSAGE" value="Double ended queue" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,11 +1,9 @@
-import javax.swing.*;
-// https://github.com/deepalis0/DSA_Algorithms/tree/main
-public class sorting
+public class QuickSort
 {
 
      public static void main(String args[]) {
 
-          int[] a = new int[]{4,1,3,9,7}; //{10, 80, 30, 90, 40, 50, 70}; // {10,9,8};
+          int[] a = new int[]{4,1,3,9,7};  // {11,12,10,13,14};
           quickSort(a,0,a.length-1);
           System.out.println("Sorted array: ");
           printArray(a);
@@ -18,30 +16,6 @@ public class sorting
           System.out.println();
      }
 
-     static int partition(int[] a,int low,int high)
-     {
-          int i = low;
-          int j = high;
-          int pivot = a[low];
-          while(i<j)
-          {
-               while(i<a.length && pivot>=a[i])
-               {
-                    i++;
-               }
-               while(j>=0 && pivot<a[j])
-               {
-                    j--;
-               }
-               if(i<j)
-               {
-                   swap(a,i,j);
-               }
-          }
-          swap(a,low,j);
-          return j;
-     }
-
      static void swap(int[] arr, int i, int j)
      {
           int temp = arr[i];
@@ -49,15 +23,42 @@ public class sorting
           arr[j] = temp;
      }
 
+     static int partition(int[] a,int low,int high)
+     {
+
+          int pivot = a[low];
+          int i=low,j=high;
+          while(i<j)
+          {
+               while(i<a.length && a[i]<=pivot)
+               {
+                    i++;
+               }
+               while(j>=0 && a[j]>pivot)
+               {
+                    j--;
+               }
+
+               if(i<j)//re-arranging the array
+               {
+                    swap(a,i,j);
+               }
+          }
+          swap(a,low,j);//putting pivot element in correct position
+          return j;
+
+     }
+
 
      static void quickSort(int[] a, int low,int high)
      {
           if(low<high)
           {
-               int p = partition(a,low,high);
-               quickSort(a,low,p-1);
-               quickSort(a,p+1,high);
+               int partitionIndex = partition(a, low, high);//3
+               quickSort(a, low, partitionIndex - 1);
+               quickSort(a, partitionIndex + 1, high);
           }
+
      }
 
 }

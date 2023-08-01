@@ -9,7 +9,7 @@ public class ModularExponentiation_Recursive {
         (m * n) % p =((m % p) * (n % p)) % p
     Property 2:
         if b is even:
-        (a ^ b) % c = ((a ^ b/2) * (a ^ b/2))%c ? this suggests divide and conquer
+        (a ^ b) % c = ((a ^ b/2) * (a ^ b/2))%c ?    suggests divide and conquer
         if b is odd:
         (a ^ b) % c = (a * (a ^( b-1))%c
     Property 3:

@@ -10,8 +10,6 @@ public class InterfaceMain {
         bike.applyBrakes(3);
         bike.commonUtility();
 
-
-
         System.out.println("Bike present state :");
         bike.printStates();
 

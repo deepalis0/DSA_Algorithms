@@ -5,6 +5,7 @@ public class staticExmaple {
 
 
     public staticExmaple(int b)
+
     {
         this.b = b;
     }

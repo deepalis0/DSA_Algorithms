@@ -8,7 +8,7 @@ public class ArrayDeque_Demo
     {
         Deque<Integer> dq = new ArrayDeque<>();
         dq.add(12);
-        dq.add(13);
+        dq.add(13);//adds at the Last of the ADq
         dq.addLast(14);
         dq.addFirst(19);
         dq.add(200);
@@ -17,6 +17,7 @@ public class ArrayDeque_Demo
 
         dq.remove();//FIFO
         dq.removeLast();
+        dq.removeFirst();
 
         System.out.println(dq);
 

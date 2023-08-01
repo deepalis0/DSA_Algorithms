@@ -37,6 +37,8 @@ public class ArrayListDemo {
     public static void main(String[] args)
     {
         ArrayList<Integer> list = new ArrayList<>();
+        ArrayList<String> list1 = new ArrayList<>();
+
         //ArrayList list = new ArrayList<Integer>();
         System.out.println("The size of list is : "+list.size());
      //   this will give Index out of bounds, as logical capacity is still 0
@@ -89,7 +91,7 @@ public class ArrayListDemo {
         //ArrayList always stores Objects!
         //dataType :Integer
         //we are converting int into Integer(Wrapper)
-        list.remove(Integer.valueOf(13));
+        list.remove(Integer.valueOf(13));//data
         //Integer.valueOf(int)
         for(int i=0;i<list.size();i++)
         {
@@ -106,7 +108,7 @@ public class ArrayListDemo {
         }
         System.out.println();
 
-
+        //28 15
         System.out.println("Adding new element at index 1 : ");
         list.add(1,16);
         for(int i=0;i<list.size();i++)

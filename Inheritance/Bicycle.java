@@ -20,14 +20,6 @@ public class Bicycle {
 
 
 
-
-
-
-
-
-
-
-
         // the Bicycle class has three methods
         public  void applyBrake(int decrement)
         {

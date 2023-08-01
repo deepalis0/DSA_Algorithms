@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class BitManipulation {
     public static void main(String args[]) {
 
@@ -33,7 +32,7 @@ public class BitManipulation {
     static boolean checkIfNthBitSet(int n,int x)
     {
 
-        if( (x & (1<<n))>0)
+        if( (x & (1<<n))!=0)
         {
             return true;
         }

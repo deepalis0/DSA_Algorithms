@@ -3,9 +3,9 @@ public class BinaryTrees
     public static void main(String args[])
     {
 
-        Node root = new Node(1);
-        root.left = new Node(2);
-        root.right = new Node(3);
+        DLLNode root = new DLLNode(1);
+        root.left = new DLLNode(2);
+        root.right = new DLLNode(3);
         System.out.println("The root node has value : "+ root.data);
         System.out.println("The left child has value : "+ root.left.data);
         System.out.println("The right child has value : "+ root.right.data);
@@ -21,12 +21,12 @@ public class BinaryTrees
 
 }
 
-class Node
+class DLLNode
 {
-    Node left;
-    Node right;
+    DLLNode left;
+    DLLNode right;
     int data;
-    public Node(int data)
+    public DLLNode(int data)
     {
         this.data = data;
     }

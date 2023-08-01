@@ -43,6 +43,7 @@ class SingletonM implements Serializable
         return value;
     }
 
+
     protected Object readResolve() //this implementation is now safe from Serialization as well
     {
         return INSTANCE;
@@ -52,12 +53,10 @@ public class DoubleCheckLocking {
 
     public static void main(String[] args) {
         // Create two threads that will each try to access the Singleton instance
-        Thread thread1 = new Thread(new Runnable() {
-            public void run() {
-                SingletonM singleton = SingletonM.getINSTANCE();
-                singleton.setValue(123);
-               System.out.println("Thread 1 - Singleton hash code: " + singleton.hashCode());
-            }
+        Thread thread1 = new Thread(() -> {
+            SingletonM singleton = SingletonM.getINSTANCE();
+            singleton.setValue(123);
+           System.out.println("Thread 1 - Singleton hash code: " + singleton.hashCode());
         });
 
         Thread thread2 = new Thread(new Runnable() {

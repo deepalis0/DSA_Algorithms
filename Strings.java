@@ -2,7 +2,7 @@ import java.util.Scanner;
 import java.lang.String;
 
 public class Strings {
-
+//https://leetcode.com/problems/reverse-string/
     public static void main(String args[]) {
         //Scanner sc = new Scanner(System.in);
         //String s = sc.next();
@@ -12,8 +12,8 @@ public class Strings {
 
         System.out.println( x.charAt(2) ); // output is 'l'
 
-        x = x.concat(" world");
-        System.out.println(x);
+        x = x.concat(" world");// x =  x + "world"
+        System.out.println(x);//"hello world"
 
         String y = "Exit";
 
@@ -35,16 +35,21 @@ public class Strings {
 
         x = "A New Java Book";
 
+       // a-z --> lowerCase   A-Z-UpperCase
+
         System.out.println( x.toLowerCase() ); // output is "a new java book"
-        System.out.println( x.toUpperCase() );
+        System.out.println( x.toUpperCase() );// A NEW JAVA BOOK
 
         System.out.println("The strings is :"+x);
         System.out.println(x.contains("Amit")); // This will print false
 
-        System.out.println(x.contains("JAVA"));
-        System.out.println(x.contains("Java"));
+        System.out.println(x.contains("JAVA"));//true
+        System.out.println(x.contains("Java"));//false
 
         x = "abbbacdd";
+        // a: 0 4
+//        x.indexOf('a')  --> 0
+//        x.lastIndexOf('a')  -->4
         System.out.println("First occurrence of a is " + x.indexOf('a'));
         System.out.println("Last occurrence of a is " + x.lastIndexOf('a'));
 
